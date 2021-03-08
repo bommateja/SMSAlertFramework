@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var otpTxtFld: UITextField!
     
+    let alert = MyNewFramework()
+    
     // this is new commit
     
     override func viewDidLoad() {
@@ -23,6 +25,7 @@ class ViewController: UIViewController {
         
         NotificationCenter.default.addObserver( self,selector:#selector(self.keyboardDidShow), name: UITextField.textDidChangeNotification, object: otpTxtFld)
         otpTxtFld.becomeFirstResponder()
+        alert.testFunction()
     }
     
 
@@ -33,7 +36,7 @@ class ViewController: UIViewController {
                 let vc = self.storyboard?.instantiateViewController(identifier: "VerifyViewController") as! VerifyViewController
                 self.navigationController?.pushViewController(vc, animated: true)
             } else {
-                let alert = MyNewFramework()
+                
                 alert.showAlert(message: "Invalid OTP", viewController: self)
             }
          }
