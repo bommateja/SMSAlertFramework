@@ -13,7 +13,52 @@
 		1832076525F1F30C00B553CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1832076325F1F30C00B553CA /* Main.storyboard */; };
 		1832076725F1F30D00B553CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1832076625F1F30D00B553CA /* Assets.xcassets */; };
 		1832076A25F1F30D00B553CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1832076825F1F30D00B553CA /* LaunchScreen.storyboard */; };
+		1832077525F1FC7600B553CA /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832077425F1FC7600B553CA /* VerifyViewController.swift */; };
+		1832078525F20CAD00B553CA /* AlertFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1832077C25F20CAD00B553CA /* AlertFramework.framework */; };
+		1832078C25F20CAD00B553CA /* AlertFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832078B25F20CAD00B553CA /* AlertFrameworkTests.swift */; };
+		1832078E25F20CAD00B553CA /* AlertFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1832077E25F20CAD00B553CA /* AlertFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1832079125F20CAD00B553CA /* AlertFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1832077C25F20CAD00B553CA /* AlertFramework.framework */; };
+		1832079225F20CAD00B553CA /* AlertFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1832077C25F20CAD00B553CA /* AlertFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1832079D25F20CC500B553CA /* MyAlertFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832079C25F20CC500B553CA /* MyAlertFramework.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1832078625F20CAD00B553CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832075225F1F30C00B553CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1832077B25F20CAD00B553CA;
+			remoteInfo = AlertFramework;
+		};
+		1832078825F20CAD00B553CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832075225F1F30C00B553CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1832075925F1F30C00B553CA;
+			remoteInfo = SMSPoc;
+		};
+		1832078F25F20CAD00B553CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832075225F1F30C00B553CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1832077B25F20CAD00B553CA;
+			remoteInfo = AlertFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1832079625F20CAD00B553CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1832079225F20CAD00B553CA /* AlertFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1832075A25F1F30C00B553CA /* SMSPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +69,14 @@
 		1832076625F1F30D00B553CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1832076925F1F30D00B553CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1832076B25F1F30D00B553CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1832077425F1FC7600B553CA /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		1832077C25F20CAD00B553CA /* AlertFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1832077E25F20CAD00B553CA /* AlertFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertFramework.h; sourceTree = "<group>"; };
+		1832077F25F20CAD00B553CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1832078425F20CAD00B553CA /* AlertFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1832078B25F20CAD00B553CA /* AlertFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFrameworkTests.swift; sourceTree = "<group>"; };
+		1832078D25F20CAD00B553CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1832079C25F20CC500B553CA /* MyAlertFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +84,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1832079125F20CAD00B553CA /* AlertFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1832077925F20CAD00B553CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1832078125F20CAD00B553CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832078525F20CAD00B553CA /* AlertFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				1832075C25F1F30C00B553CA /* SMSPoc */,
+				1832077D25F20CAD00B553CA /* AlertFramework */,
+				1832078A25F20CAD00B553CA /* AlertFrameworkTests */,
 				1832075B25F1F30C00B553CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				1832075A25F1F30C00B553CA /* SMSPoc.app */,
+				1832077C25F20CAD00B553CA /* AlertFramework.framework */,
+				1832078425F20CAD00B553CA /* AlertFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,11 +136,42 @@
 				1832076625F1F30D00B553CA /* Assets.xcassets */,
 				1832076825F1F30D00B553CA /* LaunchScreen.storyboard */,
 				1832076B25F1F30D00B553CA /* Info.plist */,
+				1832077425F1FC7600B553CA /* VerifyViewController.swift */,
 			);
 			path = SMSPoc;
 			sourceTree = "<group>";
 		};
+		1832077D25F20CAD00B553CA /* AlertFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1832077E25F20CAD00B553CA /* AlertFramework.h */,
+				1832077F25F20CAD00B553CA /* Info.plist */,
+				1832079C25F20CC500B553CA /* MyAlertFramework.swift */,
+			);
+			path = AlertFramework;
+			sourceTree = "<group>";
+		};
+		1832078A25F20CAD00B553CA /* AlertFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1832078B25F20CAD00B553CA /* AlertFrameworkTests.swift */,
+				1832078D25F20CAD00B553CA /* Info.plist */,
+			);
+			path = AlertFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1832077725F20CAD00B553CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832078E25F20CAD00B553CA /* AlertFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1832075925F1F30C00B553CA /* SMSPoc */ = {
@@ -77,15 +181,54 @@
 				1832075625F1F30C00B553CA /* Sources */,
 				1832075725F1F30C00B553CA /* Frameworks */,
 				1832075825F1F30C00B553CA /* Resources */,
+				1832079625F20CAD00B553CA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1832079025F20CAD00B553CA /* PBXTargetDependency */,
 			);
 			name = SMSPoc;
 			productName = SMSPoc;
 			productReference = 1832075A25F1F30C00B553CA /* SMSPoc.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1832077B25F20CAD00B553CA /* AlertFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1832079325F20CAD00B553CA /* Build configuration list for PBXNativeTarget "AlertFramework" */;
+			buildPhases = (
+				1832077725F20CAD00B553CA /* Headers */,
+				1832077825F20CAD00B553CA /* Sources */,
+				1832077925F20CAD00B553CA /* Frameworks */,
+				1832077A25F20CAD00B553CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertFramework;
+			productName = AlertFramework;
+			productReference = 1832077C25F20CAD00B553CA /* AlertFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1832078325F20CAD00B553CA /* AlertFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1832079725F20CAD00B553CA /* Build configuration list for PBXNativeTarget "AlertFrameworkTests" */;
+			buildPhases = (
+				1832078025F20CAD00B553CA /* Sources */,
+				1832078125F20CAD00B553CA /* Frameworks */,
+				1832078225F20CAD00B553CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1832078725F20CAD00B553CA /* PBXTargetDependency */,
+				1832078925F20CAD00B553CA /* PBXTargetDependency */,
+			);
+			name = AlertFrameworkTests;
+			productName = AlertFrameworkTests;
+			productReference = 1832078425F20CAD00B553CA /* AlertFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +241,14 @@
 				TargetAttributes = {
 					1832075925F1F30C00B553CA = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					1832077B25F20CAD00B553CA = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					1832078325F20CAD00B553CA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1832075925F1F30C00B553CA;
 					};
 				};
 			};
@@ -115,6 +266,8 @@
 			projectRoot = "";
 			targets = (
 				1832075925F1F30C00B553CA /* SMSPoc */,
+				1832077B25F20CAD00B553CA /* AlertFramework */,
+				1832078325F20CAD00B553CA /* AlertFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +283,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1832077A25F20CAD00B553CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1832078225F20CAD00B553CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +305,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				1832076225F1F30C00B553CA /* ViewController.swift in Sources */,
+				1832077525F1FC7600B553CA /* VerifyViewController.swift in Sources */,
 				1832075E25F1F30C00B553CA /* AppDelegate.swift in Sources */,
 				1832076025F1F30C00B553CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1832077825F20CAD00B553CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832079D25F20CC500B553CA /* MyAlertFramework.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1832078025F20CAD00B553CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832078C25F20CAD00B553CA /* AlertFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1832078725F20CAD00B553CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1832077B25F20CAD00B553CA /* AlertFramework */;
+			targetProxy = 1832078625F20CAD00B553CA /* PBXContainerItemProxy */;
+		};
+		1832078925F20CAD00B553CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1832075925F1F30C00B553CA /* SMSPoc */;
+			targetProxy = 1832078825F20CAD00B553CA /* PBXContainerItemProxy */;
+		};
+		1832079025F20CAD00B553CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1832077B25F20CAD00B553CA /* AlertFramework */;
+			targetProxy = 1832078F25F20CAD00B553CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1832076325F1F30C00B553CA /* Main.storyboard */ = {
@@ -284,10 +486,13 @@
 		1832076F25F1F30D00B553CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B38U56L6;
 				INFOPLIST_FILE = SMSPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,10 +507,13 @@
 		1832077025F1F30D00B553CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B38U56L6;
 				INFOPLIST_FILE = SMSPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +522,103 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1832079425F20CAD00B553CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L3B38U56L6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theja.test.AlertFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1832079525F20CAD00B553CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L3B38U56L6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theja.test.AlertFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1832079825F20CAD00B553CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theja.test.AlertFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSPoc.app/SMSPoc";
+			};
+			name = Debug;
+		};
+		1832079925F20CAD00B553CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theja.test.AlertFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSPoc.app/SMSPoc";
 			};
 			name = Release;
 		};
@@ -334,6 +639,24 @@
 			buildConfigurations = (
 				1832076F25F1F30D00B553CA /* Debug */,
 				1832077025F1F30D00B553CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1832079325F20CAD00B553CA /* Build configuration list for PBXNativeTarget "AlertFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1832079425F20CAD00B553CA /* Debug */,
+				1832079525F20CAD00B553CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1832079725F20CAD00B553CA /* Build configuration list for PBXNativeTarget "AlertFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1832079825F20CAD00B553CA /* Debug */,
+				1832079925F20CAD00B553CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
