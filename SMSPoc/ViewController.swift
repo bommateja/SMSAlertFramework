@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var otpTxtFld: UITextField!
     
+    // this is new commit
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
